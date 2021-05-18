@@ -1,0 +1,48 @@
+.header {
+    
+    // .header__content
+
+    &__content {
+        max-width: 1044px;
+        margin: 0 auto;
+        padding: 0px 6px;
+    }
+
+    // .header__menu
+
+    &__menu {
+    }
+}
+.menu {
+
+    // .menu__icon
+
+    &__icon {
+    }
+
+    // .menu__body
+
+    &__body {
+        ul {
+            display: flex;
+            justify-content: flex-end;
+            height: 82px;
+            align-items: center;
+            li {
+                display: flex;
+                margin: 0 0 0 33px;
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: #000;
+                    font-weight: 500;
+                    &:hover {
+                        color: #ff6464;
+                    }
+                }
+            }
+        }
+    }
+}
+.icon-menu {
+}
